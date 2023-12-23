@@ -1,2 +1,2 @@
-# GAN-VAE-Synthetic-data-generation
-Generate synthetic tabular data using GAN/VAE
+# Transformer-based synthetic video generator
+Generate synthetic video data using a transformer-based architercture
