@@ -6,3 +6,4 @@
   - Better video tokenizer
 
 # We will be implementing a VQ-GAN
+![#VQ-GAN Architecture](assets/vqgan.PNG)
