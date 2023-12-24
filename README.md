@@ -4,3 +4,5 @@
   - Using the learned simulator for training driving models
   - Scaling to more bits and larger transformer when sampling is not the bottleneck
   - Better video tokenizer
+
+# We will be implementing a VQ-GAN
