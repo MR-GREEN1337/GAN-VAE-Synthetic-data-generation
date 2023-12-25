@@ -15,4 +15,4 @@
 
 - The VQ-VAE learns to compress and decompress videos by maximizing the variational lower bound
     -That is, to minimize error between compression and decompression + minimizing the error of the codebook-encoded_vector
-    - Finally, the goal is to minimize the KL-divergence ratio, that is to prevent the input and ouput encoder's data distribution from diverging from each other.
+    - Finally, the goal is to minimize the KL-divergence ratio, that is to prevent the encoder and decoder's data distribution from diverging from each other.
