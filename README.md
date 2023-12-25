@@ -16,3 +16,8 @@
 - The VQ-VAE learns to compress and decompress videos by maximizing the variational lower bound
     -That is, to minimize error between compression and decompression + minimizing the error of the codebook-encoded_vector
     - Finally, the goal is to minimize the KL-divergence ratio, that is to prevent the encoder and decoder's data distribution from diverging from each other.
+# GPT (Autoregressive sampling)
+![#VQ-VAE loss](assets/autoreg.PNG)
+- With the encoder, decoder learned, discrete latents indices pointing to codebook vectors, we proceed to training a transformer with the goal of predicting the next token
+- Since a video is a set of set of tokens, the goal of the transformer is to predict tokens based on not only the current frame's tokens, but also on previous images' ones.
+  
