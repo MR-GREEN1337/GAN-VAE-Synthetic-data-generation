@@ -48,7 +48,7 @@ class UpSampleBlock(nn.Module):
 
 class DownSampleBlock(nn.Module):
     def __init__(self, channels):
-        super(UpSampleBlock, self).__init__()
+        super(DownSampleBlock, self).__init__()
         self.conv = nn.Conv2d(channels, channels, 3, 2, 0)
 
     def forward(self, x):
