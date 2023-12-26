@@ -21,7 +21,7 @@
 - With the encoder, decoder learned, discrete latents indices pointing to codebook vectors, we proceed to training a transformer with the goal of predicting the next token
 - Since a video is a set of set of tokens, the goal of the transformer is to predict tokens based on not only the current frame's tokens, but also on previous images' ones.
 
-# Look at the encoder block
+# Look at the attention residual block
 ![#Encoder-Block](assets/architect.PNG)
 
 - Notice that we'll incorporate 3D convolution to handle video dimension, as well as positional encoding to handle the temporal dependency feature present in videos
